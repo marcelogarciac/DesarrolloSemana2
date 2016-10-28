@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="angelapps.com.tarea2coursera.Detalle_Contacto">
+
+    <TextView
+        android:id="@+id/confirmar"
+        android:text="@string/titulo_detalle"
+        android:textAlignment="center"
+        android:textSize="@dimen/texto_titulo"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_marginTop="@dimen/margen_superior"
+        android:id="@+id/tvnombre"
+        android:text="Garcia Campos Marcelo"
+        android:textSize="@dimen/texto_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="20/04/1987"
+        android:textSize="@dimen/texto_normal"
+        android:layout_marginTop="@dimen/margen_superior"
+        android:id="@+id/tvFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:text="955821288"
+        android:textSize="@dimen/texto_normal"
+        android:layout_marginTop="@dimen/margen_superior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="iimarceloA@gmail.com"
+        android:textSize="@dimen/texto_normal"
+        android:layout_marginTop="@dimen/margen_superior"
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:text="Holaaaa"
+        android:textSize="@dimen/texto_normal"
+        android:layout_marginTop="@dimen/margen_superior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bSig"
+        android:layout_marginTop="@dimen/margen_superior"
+        android:text="Editar Datos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

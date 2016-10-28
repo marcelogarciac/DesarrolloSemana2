@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DesarrolloTarea2</string>
+    <string name="nombre_input">Nombres</string>
+    <string name="fecha_input">Fecha de Nacimiento</string>
+    <string name="telefono_input">Celular</string>
+    <string name="email_input">Email</string>
+    <string name="descripcion_input">Descripción Contacto</string>
+    <string name="boton_texto">Fecha de Nacimiento</string>
+    <string-array name="meses">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    
+    //Detalle_Contacto
+    <string name="titulo_detalle">Confirmar Datos</string>
+    <string name="pnombre">nombre</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pfecha">fecha</string>
+    <string name="pemail">email</string>
+    <string name="pdescripcion"></string>
+    <string name="boton">Editar Datos</string>
+</resources>
